@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    background: none;
+    font-family:  'Sriracha', cursive;
+
+}
+td{
+    background-color: #ffd0d4;  
+    border: 2px solid rgb(253, 238, 238);
+}
+tr,th{
+    background-color: #f0a0ac;
+    border: 2px solid rgb(253, 238, 238);
+    
+}
+.he{
+    color: rgb(255, 255, 255);
+    font-size: auto;
+
+}
+.block{
+    display: block;
+}
+.s{
+    color: rgb(255, 255, 255);
+    font-size: auto;
+    margin: auto;
+    width: auto;
+}
+#colorsale{
+    background-color: #FFD6DA;
+    text-align: center;
+    font-size: auto;
+    font-weight: bold;
+    color: #b16c88;
+}
+#colorw{
+    color: #61554b;
+    font-size: auto;
+    font-weight: bold;
+
+}
+#colorwh{
+    color: black;
+    font-size: auto;
+}
+
+th,tr,td{
+    text-align: center;
+    padding: 0.4em;
+ 
+}
+table{
+    width: auto;
+    text-align: center;
+}
+nav{
+    display: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    margin-top: auto;
+     
+}
+footer{
+    text-align: end;
+    text-align: right;
+    margin:auto;
+    font-size: auto;
+}
+.hh{
+    font-size: auto;
+    padding: auto;
+    color: rgb(154, 108, 115);
+    justify-content: center;
+    display: flex;
+}
+.b{
+    font-size: none;
+    font-weight: bold;
+    color: #CF7b7e;
+}
+p{
+    font-size: 1.2em;
+}
+.block{
+    display:block;
+    margin: auto;
+}
+
+select{
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -7px;
+    padding: 4px 4px;
+    cursor: pointer;
+    background-color: rgb(234, 162, 179);
+    color: rgb(125, 69, 88);
+    border: 3px solid #f8c0d4;
+    background-image: url("https://www.pngmart.com/files/3/Down-Arrow-PNG-Image.png");
+    outline: none;
+    box-shadow: 2px 2px 5px #7b5966;
+    width: auto;
+}
+select::-ms-expand{
+   display: none;
+}
+select:hover{
+    background-color: rgb(204, 124, 142);
+    border: 3px solid #d792a5;
+    border-radius: 10px;
+    color: #ffffff;
+}
+select option{
+    background-color: #fff0cd;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    color: rgb(58, 48, 42);
+}
+.selected{
+    display: none;
+}
+
+
+
+@media(min-width: 900px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+    .hh{
+        font-size: 1.5em;
+        padding: 0.2em;
+        color: rgb(154, 108, 115);
+        justify-content: center;
+        display: flex;
+    }
+    footer{
+        text-align: end;
+        text-align: right;
+        margin: 1.8em;
+        font-size: 1.5em;
+        display: auto;
+    }
+    table{
+        width: 80%;
+    }
+    .b{
+        font-size: 1.2em;
+    }
+    #colorsale{
+        text-align: center;
+        font-size: 1.1em;
+    }
+    #colorw{
+        font-size: 1em;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    }
+    #colorwh{
+        font-size: 1.1em;
+    }
+    .he{
+        font-size: 1.2em;  
+    }
+    .s{
+        font-size: 1.2em; 
+        margin: 0.9px;
+    }
+    select{
+        font-size: 18px;
+        margin-top: -5px;
+        padding: 4px 4px;
+        border: 3px solid #f8c0d4;
+        outline: none;
+        box-shadow: 2px 2px 5px #7b5966;
+        width: 155px;
+    }
+    select:hover{
+        border: 3px solid #d792a5;
+    }
+    select option{
+        background-color: #fff0cd;
+        letter-spacing: 1.2px;
+        font-size: 16px;
+}
+ 
+}
+
+
+@media(min-width: 521px) and (max-width: 899px){
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+    select{
+        font-size: 13.5px;
+        margin-top: -7px;
+        padding: 2px 2px;
+        outline: none;
+        box-shadow: 2px 2px 5px #7b5966;
+        width: 116px;
+    }
+    select option{
+        background-color: #fff0cd;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+   .s{
+        font-size: 1.1em; 
+    }
+    .hh{
+        font-size: 1.36em;
+        padding: 0.6em;
+        justify-content: center;
+        display: flex;
+    }
+    footer{
+        text-align: end;
+        text-align: right;
+        margin: 1.3em;
+        font-size: 1.5em;
+    }
+    table{
+        width: 95%;
+    }
+    .b{
+        font-size: 1em;
+    }
+    #colorsale{
+        text-align: center;
+        font-size: 0.95em;
+    }
+    #colorw{
+        font-size: 0.95em;
+    
+    }
+    #colorwh{
+        font-size: 1em;
+    }
+    .he{
+        font-size: 1.1em;  
+    }
+}
+
+
+@media(max-width: 520px){
+    nav{
+        display: block;
+        justify-content: center;
+        margin-bottom: 10px;
+
+    }
+    .hh{
+        font-size: 1.2em;
+        padding: 0.3em;
+        color: rgb(154, 108, 115);
+        justify-content: center;
+        display: flex;
+    }
+    footer{
+        text-align: end;
+        text-align: right;
+        margin: 1em;
+        font-size: 1.15em;
+    }
+    table{
+        width: 100%;
+        
+    }
+    .b{
+        font-size: 0.94em;
+    }
+    #colorsale{
+        text-align: center;
+        font-size: 0.9em;
+    }
+    #colorw{
+        font-size: 0.82em;
+    }
+    #colorwh{
+        font-size: 0.83em;
+    }
+    .he{
+        font-size: 1em;  
+    }
+  .s{
+    font-size: 0.85em;
+  }
+  select{
+    font-size: 11px;
+    margin-top: -7px;
+    padding: 2px 2px;
+    outline: none;
+    box-shadow: 2px 2px 5px #7b5966;
+    width: 102px;
+ }
+ select option{
+    background-color: #fff0cd;
+    letter-spacing: 1px;
+    font-size: 11px;
+ }
+}

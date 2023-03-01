@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    font-family: 'Sriracha', cursive;
+}
+
+body
+{
+    
+    margin:0;
+    padding: 0;
+    display:flex;
+    background-color:pink;
+    background-image:url(https://cdnb.artstation.com/p/assets/images/images/003/733/761/4k/mark-kirkpatrick-mk-landscape-01.jpg?1599194319);
+}
+img
+{
+    max-width: 100%;
+}
+.container
+{
+    background:rgb(247, 156, 156,0.5);
+    display: block;
+    margin: auto;
+    border-radius:30px;
+    width: 600px;
+    height: 650px;
+    display: table-cell;
+    text-align: center;
+    
+}
+input
+{
+    
+    border-radius:30px;
+    border-color:#F6C6C7;
+    width: 300px;
+    color: rgb(77, 50, 50);
+
+}
+input:focus {
+
+    background-color: #E7DCFC;
+    border-color:#F6C6C7;
+}
+input[type=submit]
+{
+    margin-top:10px;
+    border-radius:5px;
+    padding:10px;
+    width: 100px;
+    background: -webkit-linear-gradient(#F6C6C7, #E8CFF8); 
+    color:white;
+}
+div
+{
+    box-shadow: 10px 10px ;
+    color:white;
+}
+@media (max-width: 700px) and (max-width: 1101px){
+.container
+{
+    background:rgb(247, 156, 156,0.5);
+    display: block;
+    margin: auto;
+    border-radius:30px;
+    width: 400px;
+    height: 600px;
+    display: table-cell;
+    text-align: center;
+    
+}
+
+}
